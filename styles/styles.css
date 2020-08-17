@@ -18,7 +18,11 @@ nav {
 .dropdown-content{
     font-size: 10px;
     color: black;
+    min-width: 175px;
+    
 }
+
+
 
 
 .center {
@@ -97,7 +101,7 @@ body {
     border-color: lightslategray;
     border-width: 10px;
     text-align: center;
-    min-height: 200px;
+    min-height: 225px;
     font-family: 'Press Start 2P', cursive;
     
 }
@@ -115,11 +119,15 @@ a{
 }
 
 footer,
-
 .page-footer{
     background-color: bisque;
     border-color: lightslategray;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color: black;
+    max-height: 125px;
+}
+
+#eMail{
+    padding-top: 25px;
 }
